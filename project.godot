@@ -18,6 +18,13 @@ _global_script_class_icons={
 config/name="FloppyFish"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=320
+window/size/height=240
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_height"
+
 [input]
 
 jump={
@@ -28,4 +35,5 @@ jump={
 
 [rendering]
 
+environment/default_clear_color=Color( 0.08, 0.08, 0.08, 1 )
 environment/default_environment="res://default_env.tres"

@@ -5,5 +5,6 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 250, 300 )
-acceleration = 400.0
+position = Vector2( 64, 128 )
+MAX_SPEED = 100.0
+acceleration = 200.0
